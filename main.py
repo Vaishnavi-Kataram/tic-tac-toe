@@ -128,7 +128,6 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
-    # RENDER YOUR GAME HERE
     pygame.display.flip()
     screen.fill("white")
     screen.blit(GRID, (0, 0))
